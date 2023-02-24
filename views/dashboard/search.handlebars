@@ -1,0 +1,31 @@
+<section class="search">
+    <h2>Pesquise uma transação</h2>
+    <form action="/transactions/search" method="get" class="search-form">
+        <input class="form-control__input search-form__input" type="search" name="search" id="search" placeholder="Buscar por descrição...">
+        <button class="button search-form__btn" type="submit"><i class="search-form__icon fa-solid fa-magnifying-glass"></i></button>
+    </form>
+</section>
+
+<section class="section-search">
+    <h1 class="title_align_center">Resultados para "{{searchQuery}}"...</h1>
+    <small class="section-search__small">{{transactionsQtd}} resutado(s) encontrado(s)</small>
+
+    <div>
+        {{#each data}}
+        <div class="transactionDetails">
+
+            {{#if transaction_type}}
+            <p class="transactionDetails__type">Receita</p>
+
+            <p class="description-income">{{description}}</p>
+            {{else}}
+            <p class="transactionDetails__type">Despesa</p>
+
+            <p class="description-expense">{{description}}</p>
+            {{/if}}
+
+            <p class="transactionDetails__amount">Valor: <span class="transactionDetails__span">{{amount}}</span></p>
+        </div>
+        {{/each}}
+    </div>
+</section>
