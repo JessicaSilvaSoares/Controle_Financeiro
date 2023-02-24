@@ -1,7 +1,7 @@
 # Projeto Controle Financeiro
     Projeto criado por Jessica da Silva, e Rodrigo Alves.
 
-    O projeto consiste no controle financeiro do usuario, nele é possivel acrescentar valores de receita ou retirar para despesas. Além de mostrar todo o historico das transações feitas pelo cliente.
+    O projeto consiste no controle financeiro do usuario, nele é possivel acrescentar valores de receita ou retirar para despesas. Além de mostrar todo o historico das transações feitas pelo cliente e o saldo.
 
 # Paleta de cores em HEXCDECIMAL:
     #400101
@@ -19,7 +19,7 @@
 
 # Dependencias necessarias para a visualização do projeto:
 
-    para instalar é necessario entrar no seu terminal e utilizar o comando "npm install" + o nome de cada dependencia sitada abaixo.
+    para instalar é necessario entrar no seu terminal e utilizar o comando "npm install" + o nome de cada dependencia sitados abaixo.
 
     bcryptjs -> Necessaria para criptografar senhas e afins.
     connect-flash -> Utilizado para mandar mensagens ao usuario.
@@ -41,7 +41,6 @@
 # Organização das pastas
 
 # Controllers
-    TransactionController.js --> responsavel por toda a criação da tabela de transações, e onde é feito o calculo das despesa e receitas de cada úsuario.
     TransactionController.js --> responsavel por toda a criação da tabela de transações, e onde é feito o calculo das despesa e receitas de cada úsuario, assim como o historico de transações.
 
     UserController.js --> responsavel por toda a criação dos usuarios desde cadastro a verificação do login.
@@ -67,18 +66,7 @@
         pasta onde se encontram o HTML das paginas de login e registro
 
     # dashboard
-       pasta onde se encontram os HTML das paginas para acerscentar receitas, fazer as despesas, e verificar o historico. 
+       pasta onde se encontram os HTML das paginas para acrescentar receitas e despesas, e verificar o historico. 
 
     # layouts
         pasta onde se encontra o HTML do arquivo main.
-
-
-
-# Paleta de cores em HEXCDECIMAL:
-    #400101
-    #CF4526
-    #612940
-    #DB7396
-    #D9C1D0
-    #DBC5BD
-    #EFE6EC
