@@ -17,7 +17,7 @@ Para instalar todas as dependências é necessario entrar no seu terminal dentro
 npm install    
 ```
 # Como iniciar o projeto
-Rode o comando 
+Dentro da pasta do projeto rode o comando 
 ```
 npm start
 ```
