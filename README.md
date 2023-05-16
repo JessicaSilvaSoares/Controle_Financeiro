@@ -1,5 +1,5 @@
 # Projeto Controle Financeiro
-    Projeto criado por Jessica da Silva, e Rodrigo Alves.
+    Projeto criado por Jessica da Silva e Rodrigo Alves.
 
 > O projeto consiste no controle financeiro do usuario, nele é possivel acrescentar valores de receita ou de despesas. Além de mostrar todo o historico das transações feitas pelo cliente e o saldo.
 
